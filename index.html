@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>period calculator</title>
+    <title>bereken geldigheidsduur</title>
   </head>
   <body>
     <section class="period-calculater">
       <h1 class="title">Bereken geldigheidsduur</h1>
       <form>
-        <label for="starting-date">Ingangsdatum</label>
+        <label for="starting-date">Examendatum of coulancedatum:</label><br />
         <input type="date" name="starting-date" id="starting-date" />
         <br />
-        <label for="month-to-add">Aantal maanden: </label>
-        <input type="text" name="month-to-add" id="month-to-add" />
+        <label for="month-to-add">Aantal maanden geldig: </label><br />
+        <input type="text" name="month-to-add" id="month-to-add" size="4" />
         <br />
-        <input type="submit" value="Bereken" id="submit" />
+        <input type="submit" value="Bereken" id="submit" class="btn" /><br />
       </form>
-      <div id="result"></div>
+      <div id="result">Vul bovenstaande gegevens in.</div>
     </section>
     <script src="script.js"></script>
   </body>

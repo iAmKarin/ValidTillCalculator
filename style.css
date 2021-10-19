@@ -30,12 +30,21 @@ body {
   border-radius: 0.8rem;
   padding: 1rem 2rem;
   min-height: 25rem;
+  text-align: center;
 }
 
 .period-calculater > * {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
-.period-calculater h1 {
-  text-align: center;
+.btn {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: var(--blue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: var(--white);
 }
