@@ -31,6 +31,7 @@ body {
   padding: 1rem 2rem;
   min-height: 25rem;
   text-align: center;
+  box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.4);
 }
 
 .period-calculater > * {

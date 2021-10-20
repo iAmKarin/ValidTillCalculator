@@ -12,10 +12,21 @@
       <h1 class="title">Bereken geldigheidsduur</h1>
       <form>
         <label for="starting-date">Examendatum of coulancedatum:</label><br />
-        <input type="date" name="starting-date" id="starting-date" />
+        <input
+          type="date"
+          name="starting-date"
+          id="starting-date"
+          placeholder="dd-mm-yyyy"
+        />
         <br />
         <label for="month-to-add">Aantal maanden geldig: </label><br />
-        <input type="text" name="month-to-add" id="month-to-add" size="4" />
+        <input
+          type="text"
+          name="month-to-add"
+          id="month-to-add"
+          size="4"
+          value="18"
+        />
         <br />
         <input type="submit" value="Bereken" id="submit" class="btn" /><br />
       </form>
